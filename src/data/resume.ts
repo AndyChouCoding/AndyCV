@@ -6,8 +6,7 @@ export const profile = {
     en: 'Frontend Engineer / UIUX Designer',
   },
   email: 'andychouforwk@gmail.com',
-  phone: '0911-623-005',
-  github: '#',
+  github: 'https://github.com/AndyChouCoding',
   avatar: 'AC',
   bio: {
     zh: '您好，我是周慶隆 Andy，是一名前端工程師與 UIUX 設計師。精通 React 開發與 Figma 設計，擅長從設計稿到產品實作的完整流程，兼具工程思維與設計美感。',
