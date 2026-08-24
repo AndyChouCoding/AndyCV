@@ -41,7 +41,17 @@ export function Projects() {
               {current.map((project) => (
                 <div
                   key={project.id}
-                  className="group flex flex-col overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800/60 transition-all duration-300 hover:border-emerald-300 dark:hover:border-emerald-700 hover:shadow-lg hover:shadow-emerald-500/5"
+                  role="link"
+                  tabIndex={0}
+                  aria-label={`${project.name} — ${lang === 'zh' ? '前往 GitHub' : 'View on GitHub'}`}
+                  onClick={() => window.open(project.github, '_blank', 'noopener,noreferrer')}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      window.open(project.github, '_blank', 'noopener,noreferrer')
+                    }
+                  }}
+                  className="group flex flex-col overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800/60 transition-all duration-300 hover:border-emerald-300 dark:hover:border-emerald-700 hover:shadow-lg hover:shadow-emerald-500/5 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 dark:focus-visible:ring-emerald-400"
                 >
                   <div className="aspect-video overflow-hidden bg-stone-100 dark:bg-stone-900">
                     <img
@@ -76,6 +86,7 @@ export function Projects() {
                           href={project.demo}
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
                           className="text-sm font-medium text-emerald-600 dark:text-emerald-400 hover:underline"
                         >
                           Demo
@@ -86,6 +97,7 @@ export function Projects() {
                           href={project.github}
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
                           className="text-sm font-medium text-stone-600 dark:text-stone-400 hover:text-emerald-600 dark:hover:text-emerald-400 hover:underline"
                         >
                           GitHub
