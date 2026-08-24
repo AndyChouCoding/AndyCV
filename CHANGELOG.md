@@ -15,6 +15,7 @@
 - Added top spacing to Hero section on the smallest breakpoint so the avatar doesn't sit flush against the fixed header
 - DaBo Data experience entry had an English string in its Chinese title field (`title.zh`); replaced with a proper Chinese translation
 - Projects grid capped at 3 columns/items per page (was up to 5); the 5-column grid made cards too narrow and left the layout looking unbalanced when there are few projects
+- Projects section heading wasn't aligned with the other sections' headings (missing the 200px label-sidebar layout used elsewhere)
 
 ## [v1.0.0] - 2026-05-13
 
