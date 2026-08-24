@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Updated headline positioning from Frontend Engineer to Full-Stack Engineer (Hero title/bio, About quick facts, page title/meta description)
+
 ### Added
 - Projects section between Experience and Skills, with a paginated card grid (3 items/page on mobile, 4 on tablet, 5 on desktop) showing image, description, tech stack, and demo/GitHub links; first entry is ViteNMS
 
