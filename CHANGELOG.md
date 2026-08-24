@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [v1.1.1] - 2026-08-24
 ### Changed
 - Shin Kong Financial Holdings experience title changed from Sales Attendant to Financial Advisor
 
