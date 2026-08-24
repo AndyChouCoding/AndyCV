@@ -18,6 +18,7 @@
 - DaBo Data experience entry had an English string in its Chinese title field (`title.zh`); replaced with a proper Chinese translation
 - Projects grid capped at 3 columns/items per page (was up to 5); the 5-column grid made cards too narrow and left the layout looking unbalanced when there are few projects
 - Projects section heading wasn't aligned with the other sections' headings (missing the 200px label-sidebar layout used elsewhere)
+- Projects section still used a wider `max-w-6xl` container left over from the earlier 5-column grid; since content is centered, this shifted its left edge relative to every other section (visible at desktop widths above ~1024px). Reverted to `max-w-5xl` to match
 
 ## [v1.0.0] - 2026-05-13
 
