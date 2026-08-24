@@ -1,22 +1,19 @@
 # Changelog
 
 ## [Unreleased]
-### Changed
-- Updated headline positioning from Frontend Engineer to Full-Stack Engineer (Hero title/bio, About quick facts, page title/meta description)
-
 ### Added
 - Projects section between Experience and Skills, with a paginated card grid (3 items/page on mobile, 4 on tablet, 5 on desktop) showing image, description, tech stack, and demo/GitHub links; first entry is ViteNMS
-
-### Fixed
-- Added top spacing to Hero section on the smallest breakpoint so the avatar doesn't sit flush against the fixed header
+- MUI added to Styling/UI skills
+- Backend Frameworks skill group (Node.js, Python)
 
 ### Changed
 - Updated Experience section to match current LinkedIn history: split ORing role into Frontend Engineer and promoted Mid-level Frontend Engineer entries, corrected company name to ORing Industrial Networking Corp., synced career-break end date, and replaced early-career entry with Sales Attendant at Shin Kong Financial Holdings
 - Rewrote experience bullet points with more specific, concrete descriptions (IEC 62443 security work, unit testing, CI/CD)
+- Updated headline positioning from Frontend Engineer to Full-Stack Engineer (Hero title/bio, About quick facts, page title/meta description)
 
-### Added
-- MUI added to Styling/UI skills
-- Backend Frameworks skill group (Node.js, Python)
+### Fixed
+- Added top spacing to Hero section on the smallest breakpoint so the avatar doesn't sit flush against the fixed header
+- DaBo Data experience entry had an English string in its Chinese title field (`title.zh`); replaced with a proper Chinese translation
 
 ## [v1.0.0] - 2026-05-13
 
