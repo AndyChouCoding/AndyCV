@@ -32,24 +32,49 @@ export const aboutFacts = [
 export const experiences = [
   {
     id: 1,
-    period: '2025-06 ~ 現在 / Present',
-    title: { zh: 'Frontend / UIUX Design', en: 'Frontend / UIUX Design' },
-    company: { zh: '威力工業網絡股份有限公司', en: 'Power Industrial Network Co., Ltd.' },
+    period: '2026-07 ~ 現在 / Present',
+    title: { zh: '中階前端工程師 | UI/UX', en: 'Mid-level Frontend Engineer | UI/UX' },
+    company: { zh: 'ORing Industrial Networking Corp.', en: 'ORing Industrial Networking Corp.' },
     isCurrent: true,
     items: [
       {
-        zh: '針對客戶與 PM 需求生產 Figma 設計稿，並針對設計稿細節還原 UI 元件',
-        en: 'Produced Figma design specs based on client and PM requirements; pixel-perfectly implemented UI components from designs',
+        zh: '主導 NMS 專案導入 IEC 62443 資安規範，落實輸入驗證、權限控管與安全性稽核機制',
+        en: 'Led the adoption of IEC 62443 security requirements for the NMS platform, implementing input validation, access control, and security audit mechanisms',
       },
       {
-        zh: '開發產品新功能，從 UI 細節到功能實作',
-        en: 'Developed new product features from UI details through to full functional implementation',
+        zh: '提升前端開發、維運與 UI/UX 優化的主導角色，更深度參與產品迭代決策',
+        en: 'Took on greater ownership of frontend development, maintenance, and UI/UX improvements, playing a more active role in product iteration decisions',
+      },
+      {
+        zh: '主導擴大 CI/CD 建置，強化自動化部署與測試流程',
+        en: 'Led the expansion of CI/CD pipelines, strengthening automated deployment and testing workflows',
       },
     ],
   },
   {
     id: 2,
-    period: '2023-08 ~ 2025-05',
+    period: '2025-06 ~ 2026-06',
+    title: { zh: '前端工程師 | UIUX', en: 'Frontend Engineer | UIUX' },
+    company: { zh: 'ORing Industrial Networking Corp.', en: 'ORing Industrial Networking Corp.' },
+    isCurrent: false,
+    items: [
+      {
+        zh: '負責 NMS（網路管理系統）產品的 UI/UX 設計與前端功能開發，涵蓋測試與後續產品優化',
+        en: 'Designed and developed UI/UX and frontend features for a Network Management System (NMS), including testing and ongoing product improvements',
+      },
+      {
+        zh: '以 Figma 完成設計稿，並運用 MUI 實作對應 React 元件，確保設計與實作一致性',
+        en: 'Delivered design specs in Figma and implemented corresponding React components with MUI, ensuring consistency between design and implementation',
+      },
+      {
+        zh: '建立前端單元測試機制，提升程式碼品質與穩定性',
+        en: 'Established unit testing practices for the frontend codebase, improving code quality and stability',
+      },
+    ],
+  },
+  {
+    id: 3,
+    period: '2023-08 ~ 2025-06',
     title: { zh: '個人生涯規劃', en: 'Career Break' },
     company: { zh: '育兒', en: 'Childcare' },
     isCurrent: false,
@@ -62,7 +87,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     period: '2023-04 ~ 2023-08',
     title: { zh: 'Frontend / UIUX Design', en: 'Frontend / UIUX Design' },
     company: { zh: '大博數據', en: 'DaBo Data' },
@@ -79,15 +104,15 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
-    period: '2019-01 ~ 2020-01',
-    title: { zh: '理財顧問', en: 'Financial Advisor' },
-    company: { zh: '新光銀行', en: 'Shin Kong Bank' },
+    id: 5,
+    period: '2017-06 ~ 2018-07',
+    title: { zh: '客服銷售專員', en: 'Sales Attendant' },
+    company: { zh: '新光金控', en: 'Shin Kong Financial Holdings' },
     isCurrent: false,
     items: [
       {
-        zh: '管理客戶與銷售理財產品',
-        en: 'Managed client relationships and sold financial products',
+        zh: '提供客戶服務與金融商品銷售，培養與客戶溝通及需求釐清的能力',
+        en: 'Delivered customer service and financial product sales, developing client communication and requirement-clarification skills',
       },
     ],
   },
@@ -100,7 +125,7 @@ export const skillGroups = [
   },
   {
     label: { zh: '樣式 / UI', en: 'Styling / UI' },
-    skills: ['Tailwind CSS', 'Bootstrap', 'HTML', 'CSS'],
+    skills: ['Tailwind CSS', 'MUI', 'Bootstrap', 'HTML', 'CSS'],
   },
   {
     label: { zh: '程式語言 / 工具', en: 'Languages / Tools' },
