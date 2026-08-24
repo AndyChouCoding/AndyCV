@@ -13,7 +13,7 @@ export function Skills() {
           {/* Section label */}
           <div className="reveal">
             <span className="block text-xs font-medium tracking-[0.2em] uppercase text-emerald-600 dark:text-emerald-400 mb-2">
-              03 / Skills
+              04 / Skills
             </span>
             <div className="w-8 h-px bg-emerald-500 dark:bg-emerald-400" />
           </div>
