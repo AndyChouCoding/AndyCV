@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Projects section between Experience and Skills, with a paginated card grid (3 items/page on mobile, 4 on tablet, 5 on desktop) showing image, description, tech stack, and demo/GitHub links; first entry is ViteNMS
+
 ### Fixed
 - Added top spacing to Hero section on the smallest breakpoint so the avatar doesn't sit flush against the fixed header
 

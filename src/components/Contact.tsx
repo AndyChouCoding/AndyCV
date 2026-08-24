@@ -22,7 +22,7 @@ export function Contact() {
           {/* Section label */}
           <div className="reveal">
             <span className="block text-xs font-medium tracking-[0.2em] uppercase text-emerald-600 dark:text-emerald-400 mb-2">
-              05 / Contact
+              06 / Contact
             </span>
             <div className="w-8 h-px bg-emerald-500 dark:bg-emerald-400" />
           </div>

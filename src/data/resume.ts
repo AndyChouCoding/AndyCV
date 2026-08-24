@@ -118,6 +118,21 @@ export const experiences = [
   },
 ]
 
+export const projects = [
+  {
+    id: 1,
+    name: 'ViteNMS',
+    description: {
+      zh: '為 Windows 平板打造的單機版網路管理系統，透過 SNMP/LLDP 提供即時網路拓樸視覺化與設備監控，並以 IEC 62443 安全原則進行架構設計。',
+      en: 'A standalone Network Management System for Windows tablets, providing real-time network topology visualization and device monitoring via SNMP/LLDP, architected against IEC 62443 security principles.',
+    },
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Tauri', 'Rust'],
+    github: 'https://github.com/AndyChouCoding/viteNMS',
+    demo: null as string | null,
+    image: '/projects/vitenms-topology.png',
+  },
+]
+
 export const skillGroups = [
   {
     label: { zh: '前端框架', en: 'Frontend Frameworks' },
