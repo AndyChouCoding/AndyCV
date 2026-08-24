@@ -7,6 +7,7 @@
 - Backend Frameworks skill group (Node.js, Python)
 
 ### Changed
+- Projects cards now stack vertically (single column, max-w-2xl) instead of a 3-column grid; added a "View All Projects" link below linking to GitHub, pagination controls kept for when there are more than 3 projects
 - Updated Experience section to match current LinkedIn history: split ORing role into Frontend Engineer and promoted Mid-level Frontend Engineer entries, corrected company name to ORing Industrial Networking Corp., synced career-break end date, and replaced early-career entry with Sales Attendant at Shin Kong Financial Holdings
 - Rewrote experience bullet points with more specific, concrete descriptions (IEC 62443 security work, unit testing, CI/CD)
 - Updated headline positioning from Frontend Engineer to Full-Stack Engineer (Hero title/bio, About quick facts, page title/meta description)
