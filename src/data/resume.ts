@@ -124,6 +124,10 @@ export const skillGroups = [
     skills: ['React', 'Next.js', 'Vue.js', 'TypeScript'],
   },
   {
+    label: { zh: '後端框架', en: 'Backend Frameworks' },
+    skills: ['Node.js', 'Python'],
+  },
+  {
     label: { zh: '樣式 / UI', en: 'Styling / UI' },
     skills: ['Tailwind CSS', 'MUI', 'Bootstrap', 'HTML', 'CSS'],
   },
