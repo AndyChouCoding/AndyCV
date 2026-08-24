@@ -89,7 +89,7 @@ export const experiences = [
   {
     id: 4,
     period: '2023-04 ~ 2023-08',
-    title: { zh: 'Frontend / UIUX Design', en: 'Frontend / UIUX Design' },
+    title: { zh: '前端工程師 / UIUX 設計', en: 'Frontend / UIUX Design' },
     company: { zh: '大博數據', en: 'DaBo Data' },
     isCurrent: false,
     items: [
