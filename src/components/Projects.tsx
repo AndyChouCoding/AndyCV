@@ -22,13 +22,17 @@ export function Projects() {
   return (
     <section id="projects" className="py-24 px-6" ref={ref}>
       <div className="max-w-6xl mx-auto">
-        {/* Section label + heading */}
-        <div className="reveal mb-10">
-          <span className="block text-xs font-medium tracking-[0.2em] uppercase text-emerald-600 dark:text-emerald-400 mb-2">
-            03 / Projects
-          </span>
-          <div className="w-8 h-px bg-emerald-500 dark:bg-emerald-400 mb-6" />
-          <h2 className="font-display text-3xl md:text-4xl font-medium text-stone-900 dark:text-stone-50 leading-snug">
+        <div className="grid md:grid-cols-[200px_1fr] gap-12 md:gap-16 items-start mb-10">
+          {/* Section label */}
+          <div className="reveal">
+            <span className="block text-xs font-medium tracking-[0.2em] uppercase text-emerald-600 dark:text-emerald-400 mb-2">
+              03 / Projects
+            </span>
+            <div className="w-8 h-px bg-emerald-500 dark:bg-emerald-400" />
+          </div>
+
+          {/* Heading */}
+          <h2 className="reveal reveal-delay-2 font-display text-3xl md:text-4xl font-medium text-stone-900 dark:text-stone-50 leading-snug">
             {lang === 'zh' ? '作品' : 'Projects'}
           </h2>
         </div>
