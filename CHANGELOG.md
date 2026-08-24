@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+### Fixed
+- Added top spacing to Hero section on the smallest breakpoint so the avatar doesn't sit flush against the fixed header
+
 ### Changed
 - Updated Experience section to match current LinkedIn history: split ORing role into Frontend Engineer and promoted Mid-level Frontend Engineer entries, corrected company name to ORing Industrial Networking Corp., synced career-break end date, and replaced early-career entry with Sales Attendant at Shin Kong Financial Holdings
 - Rewrote experience bullet points with more specific, concrete descriptions (IEC 62443 security work, unit testing, CI/CD)
