@@ -21,7 +21,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="py-24 px-6" ref={ref}>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <div className="grid md:grid-cols-[200px_1fr] gap-12 md:gap-16 items-start mb-10">
           {/* Section label */}
           <div className="reveal">
