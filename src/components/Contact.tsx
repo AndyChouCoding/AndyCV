@@ -22,7 +22,7 @@ export function Contact() {
           {/* Section label */}
           <div className="reveal">
             <span className="block text-xs font-medium tracking-[0.2em] uppercase text-emerald-600 dark:text-emerald-400 mb-2">
-              05 / Contact
+              06 / Contact
             </span>
             <div className="w-8 h-px bg-emerald-500 dark:bg-emerald-400" />
           </div>
@@ -56,23 +56,6 @@ export function Contact() {
               </a>
 
               <a
-                href={`tel:${profile.phone.replace(/-/g, '')}`}
-                className="group flex items-center gap-4 p-5 rounded-2xl border border-stone-200 dark:border-stone-700 hover:border-emerald-400 dark:hover:border-emerald-400 bg-white dark:bg-stone-800/60 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-300"
-              >
-                <div className="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-900/30 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-900/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600 dark:text-emerald-400">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.35 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/>
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-xs text-stone-400 dark:text-stone-500 mb-0.5">Phone</p>
-                  <p className="text-sm font-medium text-stone-700 dark:text-stone-300 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                    {profile.phone}
-                  </p>
-                </div>
-              </a>
-
-              <a
                 href={profile.github}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -86,7 +69,7 @@ export function Contact() {
                 <div>
                   <p className="text-xs text-stone-400 dark:text-stone-500 mb-0.5">GitHub</p>
                   <p className="text-sm font-medium text-stone-700 dark:text-stone-300 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                    @andychou
+                    @AndyChouCoding
                   </p>
                 </div>
               </a>

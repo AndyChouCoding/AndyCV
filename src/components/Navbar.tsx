@@ -10,6 +10,7 @@ const navLinks = {
   zh: [
     { label: '關於', href: '#about' },
     { label: '經歷', href: '#experience' },
+    { label: '作品', href: '#projects' },
     { label: '技能', href: '#skills' },
     { label: '學歷', href: '#education' },
     { label: '聯絡', href: '#contact' },
@@ -17,6 +18,7 @@ const navLinks = {
   en: [
     { label: 'About', href: '#about' },
     { label: 'Experience', href: '#experience' },
+    { label: 'Projects', href: '#projects' },
     { label: 'Skills', href: '#skills' },
     { label: 'Education', href: '#education' },
     { label: 'Contact', href: '#contact' },
