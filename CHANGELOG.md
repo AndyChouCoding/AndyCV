@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - Projects section between Experience and Skills, with a paginated card grid (3 items/page on mobile, 4 on tablet, 5 on desktop) showing image, description, tech stack, and demo/GitHub links; first entry is ViteNMS
+- Two more Projects entries: SnmpTrafficVerifier (CLI screenshot from the user running it locally) and fakeIG (screenshot from its live Vercel demo, with a Demo link)
 - MUI added to Styling/UI skills
 - Backend Frameworks skill group (Node.js, Python)
 

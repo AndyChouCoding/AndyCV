@@ -131,6 +131,30 @@ export const projects = [
     demo: null as string | null,
     image: '/projects/vitenms-topology.png',
   },
+  {
+    id: 2,
+    name: 'SnmpTrafficVerifier',
+    description: {
+      zh: '互動式 CLI 工具，用於驗證交換器連接埠的流量監測是否正確：透過 SNMP v2c 輪詢 ifHCInOctets/ifHCOutOctets 計算即時速率，並可產生指定 kpps 的 UDP 流量供交叉比對。以 Node.js 開發，打包成內嵌 runtime 的 Windows 單一執行檔。',
+      en: 'An interactive CLI tool for verifying switch port traffic monitoring: polls ifHCInOctets/ifHCOutOctets via SNMP v2c to compute real-time rates, and can generate UDP traffic at a fixed kpps for cross-checking. Built with Node.js and packaged as a self-contained Windows executable.',
+    },
+    techStack: ['Node.js', 'net-snmp', 'Windows SEA'],
+    github: 'https://github.com/AndyChouCoding/SnmpTrafficVerifier',
+    demo: null as string | null,
+    image: '/projects/snmp-traffic-verifier-cli.png',
+  },
+  {
+    id: 3,
+    name: 'fakeIG',
+    description: {
+      zh: '仿 Instagram 介面的前端練習專案，還原限時動態、貼文動態牆（按讚／留言／分享）與追蹤名單側欄等核心互動元件。',
+      en: 'A front-end Instagram clone built as a practice project, replicating core UI/interaction patterns — stories, a post feed with like/comment/share, and a following sidebar.',
+    },
+    techStack: ['React', 'TypeScript'],
+    github: 'https://github.com/AndyChouCoding/fakeIG',
+    demo: 'https://fake-ig-three.vercel.app',
+    image: '/projects/fakeig-demo.png',
+  },
 ]
 
 export const skillGroups = [
