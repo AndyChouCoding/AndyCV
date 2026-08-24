@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { projects } from '../data/resume'
+import { profile, projects } from '../data/resume'
 import { useLang, t } from '../contexts/LanguageContext'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
@@ -39,7 +39,7 @@ export function Projects() {
 
         {/* Content */}
         <div className="reveal reveal-delay-2">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="flex flex-col gap-6 max-w-2xl">
               {current.map((project) => (
                 <div
                   key={project.id}
@@ -132,6 +132,22 @@ export function Projects() {
                 </button>
               </div>
             )}
+
+            {/* View all link */}
+            <div className="mt-10">
+              <a
+                href={profile.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-stone-600 dark:text-stone-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors duration-200"
+              >
+                {lang === 'zh' ? '看全部作品' : 'View All Projects'}
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            </div>
         </div>
       </div>
     </section>
