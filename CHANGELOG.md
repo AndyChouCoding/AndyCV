@@ -19,6 +19,8 @@
 - Projects grid capped at 3 columns/items per page (was up to 5); the 5-column grid made cards too narrow and left the layout looking unbalanced when there are few projects
 - Projects section heading wasn't aligned with the other sections' headings (missing the 200px label-sidebar layout used elsewhere)
 - Projects section still used a wider `max-w-6xl` container left over from the earlier 5-column grid; since content is centered, this shifted its left edge relative to every other section (visible at desktop widths above ~1024px). Reverted to `max-w-5xl` to match
+- Projects card list sat outside the label-sidebar grid (aligned with the label column, not the heading); nested it into the same content column as the heading, matching Education/Experience/Skills
+- SnmpTrafficVerifier's thumbnail (a wide terminal screenshot, ~4.1:1) was being cropped hard by the 16:9 `aspect-video` + `object-cover` card image; padded the source image to 16:9 with black letterboxing (matching the terminal's own background) so it now displays in full
 
 ## [v1.0.0] - 2026-05-13
 
