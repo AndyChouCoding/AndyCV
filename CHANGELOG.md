@@ -10,6 +10,7 @@
 
 ### Added
 - MUI added to Styling/UI skills
+- Backend Frameworks skill group (Node.js, Python)
 
 ## [v1.0.0] - 2026-05-13
 
