@@ -3,45 +3,21 @@ import { projects } from '../data/resume'
 import { useLang, t } from '../contexts/LanguageContext'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
-function useItemsPerPage() {
-  const [itemsPerPage, setItemsPerPage] = useState(3)
-
-  useEffect(() => {
-    const mdQuery = window.matchMedia('(min-width: 768px)')
-    const lgQuery = window.matchMedia('(min-width: 1024px)')
-
-    const update = () => {
-      if (lgQuery.matches) setItemsPerPage(5)
-      else if (mdQuery.matches) setItemsPerPage(4)
-      else setItemsPerPage(3)
-    }
-
-    update()
-    mdQuery.addEventListener('change', update)
-    lgQuery.addEventListener('change', update)
-    return () => {
-      mdQuery.removeEventListener('change', update)
-      lgQuery.removeEventListener('change', update)
-    }
-  }, [])
-
-  return itemsPerPage
-}
+const ITEMS_PER_PAGE = 3
 
 export function Projects() {
   const { lang } = useLang()
   const ref = useScrollReveal()
-  const itemsPerPage = useItemsPerPage()
   const [page, setPage] = useState(0)
 
-  const totalPages = Math.max(1, Math.ceil(projects.length / itemsPerPage))
+  const totalPages = Math.max(1, Math.ceil(projects.length / ITEMS_PER_PAGE))
 
   useEffect(() => {
     setPage((p) => Math.min(p, totalPages - 1))
   }, [totalPages])
 
-  const start = page * itemsPerPage
-  const current = projects.slice(start, start + itemsPerPage)
+  const start = page * ITEMS_PER_PAGE
+  const current = projects.slice(start, start + ITEMS_PER_PAGE)
 
   return (
     <section id="projects" className="py-24 px-6" ref={ref}>
@@ -59,7 +35,7 @@ export function Projects() {
 
         {/* Content */}
         <div className="reveal reveal-delay-2">
-            <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {current.map((project) => (
                 <div
                   key={project.id}
