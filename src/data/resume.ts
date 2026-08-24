@@ -106,7 +106,7 @@ export const experiences = [
   {
     id: 5,
     period: '2017-06 ~ 2018-07',
-    title: { zh: '客服銷售專員', en: 'Sales Attendant' },
+    title: { zh: '理財顧問', en: 'Financial Advisor' },
     company: { zh: '新光金控', en: 'Shin Kong Financial Holdings' },
     isCurrent: false,
     items: [

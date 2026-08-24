@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [v1.1.1] - 2026-08-24
+### Changed
+- Shin Kong Financial Holdings experience title changed from Sales Attendant to Financial Advisor
+
 ## [v1.1.0] - 2026-08-24
 ### Added
 - Projects section (Experience → Projects → Skills): cards show image, description, tech stack, and Demo/GitHub links, stacked vertically with pagination once there are more than 3 entries; ships with three projects — ViteNMS, SnmpTrafficVerifier, fakeIG
