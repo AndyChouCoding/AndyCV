@@ -5,7 +5,7 @@ export function Hero() {
   const { lang } = useLang()
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-24 sm:pt-0 overflow-hidden">
       {/* Background texture */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-stone-50 dark:bg-stone-900" />
