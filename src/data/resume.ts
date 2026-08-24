@@ -2,22 +2,22 @@ export const profile = {
   nameZh: '周慶隆',
   nameEn: 'Andy Chou',
   title: {
-    zh: '前端工程師 / UIUX 設計師',
-    en: 'Frontend Engineer / UIUX Designer',
+    zh: '全端工程師 / UIUX 設計師',
+    en: 'Full-Stack Engineer / UIUX Designer',
   },
   email: 'andychouforwk@gmail.com',
   github: 'https://github.com/AndyChouCoding',
   avatar: 'AC',
   bio: {
-    zh: '您好，我是周慶隆 Andy，是一名前端工程師與 UIUX 設計師。精通 React 開發與 Figma 設計，擅長從設計稿到產品實作的完整流程，兼具工程思維與設計美感。',
-    en: "Hi, I'm Andy Chou — a Frontend Engineer and UIUX Designer. Proficient in React and Figma, I specialize in bridging the gap between design and engineering, delivering pixel-perfect UI implementations with both technical precision and design sensibility.",
+    zh: '您好，我是周慶隆 Andy，是一名全端工程師與 UIUX 設計師。精通 React 開發與 Figma 設計，擅長從設計稿到產品實作的完整流程，兼具工程思維與設計美感。',
+    en: "Hi, I'm Andy Chou — a Full-Stack Engineer and UIUX Designer. Proficient in React and Figma, I specialize in bridging the gap between design and engineering, delivering pixel-perfect UI implementations with both technical precision and design sensibility.",
   },
 }
 
 export const aboutFacts = [
   {
     label: { zh: '目前職位', en: 'Current Role' },
-    value: { zh: 'Frontend / UIUX', en: 'Frontend / UIUX' },
+    value: { zh: 'Full-Stack / UIUX', en: 'Full-Stack / UIUX' },
   },
   {
     label: { zh: '主力技術', en: 'Core Stack' },
